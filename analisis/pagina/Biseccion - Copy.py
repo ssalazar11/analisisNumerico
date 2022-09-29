@@ -64,7 +64,7 @@ def biseccion(Xi, Xs, Tol, Niter, Fun):
 			tabla=[E,fm]
 			tabla=np.transpose(tabla)
 			df=pd.DataFrame(tabla, columns=['Error', 'fm'])
-			return print(df)
+			return df
 		else:
 			s=x
 			return print("Fracaso en ",Niter, " iteraciones ") 
